@@ -69,3 +69,8 @@ async def chat_endpoint(request: Request):
             pass
 
     return {"response": reply}
+
+if __name__ == "__main__":
+    import uvicorn
+    # A porta 7860 é OBRIGATÓRIA para o Hugging Face Spaces
+    uvicorn.run(app, host="0.0.0.0", port=7860)

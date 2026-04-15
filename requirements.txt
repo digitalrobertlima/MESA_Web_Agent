@@ -4,3 +4,4 @@ supabase
 ollama
 duckduckgo-search
 python-dotenv
+python-multipart
